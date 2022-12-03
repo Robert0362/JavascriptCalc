@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    color:#ddd;
+    font-family: "Poppins";
+    font-weight: 400;
+    text-align: center;
+}
+
+header{
+    margin-top: 5rem auto;
+}
+
+.calcDisplay{
+    margin:1rem;
+
+}
+
+.displayScreen{
+    padding:2rem;
+    background-color: #ddd;
+}
+
+.calcBody{
+    border:1px solid #ddd;
+    margin:2rem;
+}
+
+.calcButtons{
+    display:flex;
+}
+
+.calcNumbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.calcNumbers, .calcFunctions{
+    margin:1rem;
+}
+.number, .calcAction, .displayScreen{
+    border:1px solid #ddd;
+}
