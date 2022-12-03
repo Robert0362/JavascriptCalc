@@ -36,6 +36,8 @@ body{
 .calcBody{
     border:1px solid #ddd;
     margin:2rem;
+    border-radius: .75rem;
+    background-color: rgb(133, 110, 81);
 }
 
 .calcButtons{
@@ -51,6 +53,8 @@ body{
 
 .calcFunctions{
     flex-basis: 25%;
+    align-self: center;
+    padding:.15rem;
 }
 .calcNumbers, .calcFunctions{
     margin:1rem;
@@ -63,6 +67,17 @@ body{
 
 .number{
     align-self: center;
-    padding: 0.25rem;
+    padding: 0.3rem;
     background-color: rgb(65, 35, 35);
+    margin:.5rem;
+}
+
+.calcAction{
+    align-self: center;
+    padding: .1rem;
+    margin:.3rem;
+}
+
+.number:hover, .calcAction:hover{
+    background-color: rgb(235, 99, 94);
 }
